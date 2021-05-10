@@ -1,0 +1,47 @@
+body{
+	display: flex;
+	flex-direction: column;
+
+}
+.one{
+	height: 100px;
+	background: blue;
+
+}
+.One{
+	height: 300px;
+	display: flex;
+}
+.two{
+	flex:  50%;
+	background: skyblue;
+
+
+}
+.three{
+	flex:  50%;
+	background: navy;
+
+
+}
+.four{
+	height: 100px;
+	background: purple;
+
+
+}
+
+
+@media screen and (max-width: 500px){
+	.One{
+		display: block;
+	}
+	.two{
+		height: 50%;
+	}
+	.three{
+		height: 50%;
+	}
+
+
+}
