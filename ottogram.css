@@ -1,0 +1,33 @@
+body{
+	background: green;
+
+}
+header{
+
+}
+.box{
+
+}
+.image{
+	display: block;
+	width: 100%
+}
+.item{
+	border: 1px solid black;
+	margin: 7px;
+
+}
+a{
+	text-decoration: none;
+}
+.para{
+	font-size: 20px;
+}
+.foot{
+	border: 2px solid white;
+	background: navy;
+	color: white;
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+}

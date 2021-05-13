@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+
+}
+.main{
+	display: flex;
+
+}
+.one{
+	border: 2px solid black;
+
+
+}
+.two{
+	border: 2px solid black;
+
+}
+.three{
+	border: 2px solid black;
+
+
+}
+.image{
+	width: 100%;
+	height: auto;
+}
+.text{
+	background: green;
+	color: white;
+	width: 100%;
+
+}
+
+
+@media screen and ( max-width: 500px ){
+	.main{
+		display: block;
+	}
+}
